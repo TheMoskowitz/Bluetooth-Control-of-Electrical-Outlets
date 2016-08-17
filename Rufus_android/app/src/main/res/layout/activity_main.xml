@@ -1,0 +1,200 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/gradient"
+    tools:context="com.rufus2.app.MainActivity">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/rufus"
+            android:src="@drawable/avatar_hindu"
+            android:layout_centerInParent="true"
+            android:clickable="true"
+            android:onClick="imageClick"
+            />
+
+        <ImageView
+            android:id="@+id/rufusBorder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/rufus"
+            android:layout_alignTop="@+id/rufus"
+            android:layout_alignRight="@+id/rufus"
+            android:layout_alignBottom="@+id/rufus"
+            android:src="@drawable/rufusborder"
+            android:visibility="invisible"
+            />
+
+        <ImageView
+            android:id="@+id/circle1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/circle"
+            android:layout_alignParentBottom="true"
+            android:padding="10dp"
+            android:clickable="true"
+            android:onClick="imageClick"
+            />
+
+        <ImageView
+            android:id="@+id/circle1Border"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/circle1"
+            android:layout_alignTop="@+id/circle1"
+            android:layout_alignRight="@+id/circle1"
+            android:layout_alignBottom="@+id/circle1"
+            android:src="@drawable/circleborder"
+            android:visibility="invisible"
+            />
+
+        <TextView
+            android:id="@+id/circle1Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/circle1"
+            android:layout_alignTop="@+id/circle1"
+            android:layout_alignRight="@+id/circle1"
+            android:layout_alignBottom="@+id/circle1"
+            android:layout_margin="1dp"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp"
+            />
+
+        <ImageView
+            android:id="@+id/circle2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/circle"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/circle1"
+            android:padding="10dp"
+            android:clickable="true"
+            android:onClick="imageClick"
+            />
+
+        <ImageView
+            android:id="@+id/circle2Border"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/circle2"
+            android:layout_alignTop="@+id/circle2"
+            android:layout_alignRight="@+id/circle2"
+            android:layout_alignBottom="@+id/circle2"
+            android:src="@drawable/circleborder"
+            android:visibility="invisible"
+            />
+
+        <TextView
+            android:id="@+id/circle2Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/circle2"
+            android:layout_alignTop="@+id/circle2"
+            android:layout_alignRight="@+id/circle2"
+            android:layout_alignBottom="@+id/circle2"
+            android:layout_margin="1dp"
+            android:gravity="center"
+            android:text="2"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp"
+            />
+
+        <ImageView
+            android:id="@+id/circle3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/circle"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/circle2"
+            android:padding="10dp"
+            android:clickable="true"
+            android:onClick="imageClick"
+            />
+
+        <ImageView
+            android:id="@+id/circle3Border"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/circle3"
+            android:layout_alignTop="@+id/circle3"
+            android:layout_alignRight="@+id/circle3"
+            android:layout_alignBottom="@+id/circle3"
+            android:src="@drawable/circleborder"
+            android:visibility="invisible"
+            />
+
+        <TextView
+            android:id="@+id/circle3Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/circle3"
+            android:layout_alignTop="@+id/circle3"
+            android:layout_alignRight="@+id/circle3"
+            android:layout_alignBottom="@+id/circle3"
+            android:layout_margin="1dp"
+            android:gravity="center"
+            android:text="3"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp"
+            />
+
+        <ImageView
+            android:id="@+id/circle4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/circle"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/circle3"
+            android:padding="10dp"
+            android:clickable="true"
+            android:onClick="imageClick"
+            />
+
+        <ImageView
+            android:id="@+id/circle4Border"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/circle4"
+            android:layout_alignTop="@+id/circle4"
+            android:layout_alignRight="@+id/circle4"
+            android:layout_alignBottom="@+id/circle4"
+            android:src="@drawable/circleborder"
+            android:visibility="invisible"
+            />
+
+        <TextView
+            android:id="@+id/circle4Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/circle4"
+            android:layout_alignTop="@+id/circle4"
+            android:layout_alignRight="@+id/circle4"
+            android:layout_alignBottom="@+id/circle4"
+            android:layout_margin="1dp"
+            android:gravity="center"
+            android:text="4"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp"
+            />
+
+
+        </RelativeLayout>
+
+</RelativeLayout>
