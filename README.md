@@ -1,5 +1,5 @@
 # Bluetooth Control of Electrical Outlets
-An android app and arduino program that can be used to control electrical outlets from your phone. The app is named "Rufus".
+An android app and arduino program that can be used to control electrical outlets from your phone. The app is named "Rufus". You can find the Android code in the folder marked 'Rufus_android' and the arduino code in the folder marked 'Rufus_arduino'.
 
 Here's a video I made showing what the app and device do (https://www.youtube.com/watch?v=70l2b662KCY) and you can also find more information on my personal webpage (http://www.jeffmoskowitz.com/engineering).
 
